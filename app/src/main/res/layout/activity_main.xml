@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.tiamo.threeday.View.WaterFallTitle
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <com.example.tiamo.threeday.View.WaterFallText
+        android:id="@+id/ssls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索历史"
+        />
+
+    <com.example.tiamo.threeday.View.WaterFallItem
+        android:id="@+id/item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <com.example.tiamo.threeday.View.WaterFallText
+        android:id="@+id/Remen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门"
+        />
+
+    <com.example.tiamo.threeday.View.WaterFallItem
+        android:id="@+id/item_texts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
